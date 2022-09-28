@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato&display=swap');
+body{background:url(./img/bg.png)}
+.bg{background:#232323;color:#fff}
+nav{padding:20px;text-align:center}
+a{
+    font: 1.3em Lato, sans-serif;
+    color: #232323;
+    text-align: left;
+    padding: 0 20px;
+}
+h1{font:700 2em Cardo;color: #232323;}
+h2{
+    font:700 3.4em Cardo;
+    letter-spacing: -1px;
+    color: #e9e7e7;
+}
+h3{
+    font:700 2.25em Cardo, serif;
+    color: #232323;
+}
+.active{font-weight:900;}
+.btn{border-radius:4px;padding:5px 20px;border:3px solid #232323}
+.txt{text-align:center}
+.txt p {padding:35px 0;}
+.img img {width: 100%;padding: 10px 0}
+.memory{padding:20px 0}
+.memory-text{text-align:center}
+.memory-text .btn{color: #fff;border:3px solid #fff}
+.memory-text p{margin: 15px 0 ;}
+.col3{padding:0 20px}
+#articles{padding:20px 0}
+.xett{margin:10px 0; width:50px; border-top: 3px solid #232323;}
+#img1{background:url(./img/1.jpg) center/cover; height:30vh}
+#img2{background:url(./img/2.jpg) center/cover; height:30vh}
+#img3{background:url(./img/3.jpg) center/cover; height:30vh}
+@media only screen and (min-width: 768px) {
+    .container {max-width: 1180px;margin: auto;}
+    #menu{width:80%;}
+    nav{text-align:inherit}
+    #menu li{display: inline-block;}
+    nav{display: flex;}
+    h1{font-size:5.3em;}
+    .row::after{
+        content: "";
+        display:table;
+        clear: both;    
+    }
+    .col5{width:45%}
+    .col3{width:33.33%}
+    .fleft{float:left}
+    .fright{float:right}
+    .txt{margin:0 10px;}
+    .txt a{float: left;}
+    #scribble{background:url(./img/scribble.png) no-repeat right bottom; height:100vh} 
+    #scrib{background:url(./img/scribe.png) no-repeat left top; height:25vh}
+    #scribe{background:url(./img/scribbe.png) no-repeat left bottom; height:25vh}
+}
